@@ -1,0 +1,15 @@
+@import "./base";
+@import "./mixins";
+@import "./variables";
+
+.sp{
+    display: none;
+    @include mq-down(md){
+        display: block;
+    }
+}
+.pc{
+    @include mq-down(md){
+        display: none;
+    }
+}

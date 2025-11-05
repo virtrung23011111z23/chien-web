@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 120 120" role="img" aria-label="Rounded C logo with transparent background">
+  <!-- Transparent background (no rect) -->
+
+  <!-- Rounded 'C' drawn as a stroked arc so endpoints are rounded -->
+  <path
+    d="M84 30
+       A34 34 0 1 0 84 90"
+    fill="none"
+    stroke="#2F3249"
+    stroke-width="20"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+</svg>

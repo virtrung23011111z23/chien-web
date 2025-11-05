@@ -1,0 +1,62 @@
+@use "../base" as *;
+@use "../mixins" as *;
+
+.hero {
+    max-width: 75rem;
+    margin: 8rem auto 0rem;
+    text-align: center;
+    position: relative;
+}
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__name {
+    font-size: 5.6rem;
+    font-weight: 400;
+    line-height: 7.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.hero__slug {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 6rem;
+    span {
+        font-weight: bold;
+    }
+}
+
+.hero__job {
+    position: absolute;
+    top: -2rem;
+    right: 10rem;
+    padding: 0.8rem 1.2rem;
+    width: max-content;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 1px solid #d1d9e6;
+    box-shadow: 6px 6px 12px #b8b9be, -6px -6px 12px #fff;
+    border-radius: 0.55rem;
+}
+.hero__product{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    @include button-layout();
+    padding: 1rem 2rem;
+}
+.hero__icon{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.hero__link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.025em;;
+}

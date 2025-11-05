@@ -1,7 +1,9 @@
+import Hero from "../components/Hero"
+import "../scss/pages/home.scss"
 export default function Home(){
-    return(
+    return (
         <>
-        <p>hihi</p>
+        <Hero />
         </>
     )
 }

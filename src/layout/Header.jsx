@@ -16,12 +16,12 @@ export default function Header() {
                             <FaBars className="header__bar" />
                         </button>
                         <div className="header__page" >
-                            <Link to='/'>Trang chủ</Link>
-                            <Link to='/product'>Sản phẩm</Link>
-                            <Link to='/profile'>Hồ sơ</Link>
-                            <Link to='/contact'>Liên hệ</Link>
+                            <Link to ='/'>Trang chủ</Link>
+                            <Link to ='/product'>Sản phẩm</Link>
+                            <Link to ='/profile'>Hồ sơ</Link>
+                            <Link to ='/contact'>Liên hệ</Link>
                         </div>
-                        <div className={`header__page-fixed ${open ? "open-mobie" : ""} `} >
+                        <div className={`header__page-fixed ${open ? "open-mobie" : ""}`} >
                             <div className="header-fixed__top">
                                 <div className="header__logo"><img src="/images/logo.svg" alt="logo" /></div>
                                 <button className='header-fixed__close' onClick={() => setOpen(false)}>

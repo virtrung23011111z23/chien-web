@@ -43,7 +43,9 @@
     gap: 0.5rem;
     align-items: center;
 }
-
+.profile__address-icon {
+    font-size: 2rem;
+}
 .profile__online {
     display: flex;
     gap: 2rem;
@@ -210,6 +212,7 @@
 }
 .profile__service-icon {
    font-size: 2rem;
+   flex: 0 0 2rem;
 }
 .profile__service-content {
     display: flex;

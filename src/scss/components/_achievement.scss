@@ -1,0 +1,45 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+.achievement {
+    max-width: 114rem;
+    margin: 8rem auto;
+    padding: 0 2rem;
+}
+.achievement__grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    @include mq-down(md){
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.achievement__item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: center;
+    align-items: center;
+}
+.achievement__img {
+    width: 8.8rem;
+    height: 8.8rem;
+    border-radius: 50%;
+    box-shadow: $box-shadow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achievement__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+}
+.achievement__desc {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+}
+.achievement__icon {
+    font-size: 4.5rem;
+}

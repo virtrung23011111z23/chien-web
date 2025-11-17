@@ -11,7 +11,7 @@ function History({ data }) {
                     const title = data.title ?? "";
                     const desc = data.desc ?? "";
                     const signature = data.signature ?? "";
-                    const logoGara = data.logoGara ?? [];
+                    const logoAuto = data.logoAuto ?? [];
                     const logoSchool = data.logoSchool ?? "";
                     const nameStudy = data.nameStudy ?? "";
                     return (
@@ -28,10 +28,10 @@ function History({ data }) {
 
                                 {title && <div className="history__title">{title}</div>}
 
-                                {logoGara.length != 0 &&
+                                { logoAuto.length != 0 &&
                                     <div className="history__list-auto">
                                         {
-                                            logoGara.map(gara =>
+                                            logoAuto.map(gara =>
                                                 <div className="history__logo-gara" key={gara}>
                                                     <img src={`/images/${gara}`} alt={gara} />
                                                 </div>
@@ -81,7 +81,7 @@ export default function Profile() {
                         <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-2.jpg" alt="avatar" />
                     </div>
                     <div className="profile__name">Chương Văn Chiến</div>
-                    <div className="profile__address">{Icons.address}Bắc Từ Liêm, Hà Nội</div>
+                    <div className="profile__address"><div className="profile__address-icon">{Icons.address}</div>Bắc Từ Liêm, Hà Nội</div>
                     <div className="profile__online">
                         <a href="$" className="profile-icon icon-blue">{Icons.facebook}</a>
                         <a href="#" className="profile-icon icon-pink">{Icons.instagram}</a>

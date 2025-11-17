@@ -3,7 +3,7 @@ export const achievementData = [
         icon: "parts",
         count: 1000,
         title: `+ phụ tùng`,
-        desc: "Hơn 1000 phụ tùng chất lượng cao giá thành hợp lý"
+        desc: "Hơn 1000 phụ tùng chất lượng cao, giá thành hợp lý"
     },
     {
         icon: "gara",

@@ -16,7 +16,7 @@ export default function About() {
                         Công ty chúng tôi
                     </div>
                     <div className="about__desc">
-                        Themesberg là một nhóm gồm các nhà thiết kế,
+                        Sứ mệnh của chúng tôi là đồng hành cùng các doanh nghiệp vận tải, đơn vị kinh doanh xe buýt và khách hàng cá nhân trong việc duy trì hiệu suất vận hành cao, tối ưu chi phí và đảm bảo an toàn cho mỗi chuyến hành trình.
                     </div>
                     <div className="about__strong">
                         <div className="strong__item">
@@ -24,8 +24,7 @@ export default function About() {
                                 Isuzu
                             </div>
                             <div className="strong__line">
-                                <div className="strong__line-bg"></div>
-                                <div className="strong__line-active"></div>
+                                <div className="strong__line-active" style={{width:"10%"}}></div>
                             </div>
                         </div>
                         <div className="strong__item">
@@ -33,8 +32,7 @@ export default function About() {
                                 Samco
                             </div>
                             <div className="strong__line">
-                                <div className="strong__line-bg"></div>
-                                <div className="strong__line-active"></div>
+                                <div className="strong__line-active" style={{width:"10%"}}></div>
                             </div>
                         </div>
                         <div className="strong__item">
@@ -42,8 +40,7 @@ export default function About() {
                                 Hino
                             </div>
                             <div className="strong__line">
-                                <div className="strong__line-bg"></div>
-                                <div className="strong__line-active"></div>
+                                <div className="strong__line-active" style={{width:"10%"}}></div>
                             </div>
                         </div>
                     </div>
@@ -55,14 +52,14 @@ export default function About() {
                 </div>
                 <div className="about__content about__content-bottom">
                     <div className="about__title">
-                        Công ty chúng tôi
+                        Sứ mệnh cá nhân
                     </div>
                     <div className="about__descs">
                         <div className="about__desc">
-                            Themesberg là một nhóm gồm các nhà thiết kế,
+                            Đối với tôi, người cung cấp,bán hàng phụ tùng – không chỉ đơn thuần trao tay khách hàng một linh kiện, mà còn trao gửi niềm tin vận hành.Mỗi chi tiết nhỏ mà chúng ta giới thiệu đều mang giá trị lớn: đó là sự an toàn, hiệu suất và độ bền.
                         </div>
                         <div className="about__desc">
-                            Themesberg là một nhóm gồm các nhà thiết kế,
+                            Mục tiêu của tôi là giúp xe của khách hàng vận hành mượt mà, mạnh mẽ và ổn định — và qua mỗi giao dịch, chúng ta khẳng định uy tín, xây dựng niềm tin và phát triển bền vững.
                         </div>
                     </div>
                     <div className="about__sigture">

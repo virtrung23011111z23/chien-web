@@ -6,7 +6,7 @@ export default function Hero() {
             <div className="hero__content">
                 <div className="hero__job">SALE</div>
                 <div className="hero__name">
-                    Trương Chiến
+                    Tiến Trung
                 </div>
                 <div className="hero__slug">
                     <span>Chuyên cung cấp phụ tùng</span> các dòng xe <span>ISUZU - SAMCO - HINO</span><br />Liên hệ: 0923.160.180

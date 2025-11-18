@@ -75,7 +75,14 @@ export default function Product() {
             </div>
             <div className="product__grid">
                 {products.map(pr => 
-                    <ProductItem key={pr.name} img={pr.image} name={pr.name} desc={pr.desc} />
+                {
+                    const name = pr.name ?? "";
+                    const img = pr.image ?? "";
+                    const desc = pr.desc ?? "";
+                    return (
+                        <ProductItem key={name} img={img} name={name} desc={desc} />
+                    )
+                }
                 )}
             </div>
         </div>

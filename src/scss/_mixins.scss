@@ -32,3 +32,8 @@
         color: #31344b;
     }
 }
+@mixin border-box(){
+    border: $border;
+    box-shadow: $box-shadow;
+    border: 0.5rem;
+}

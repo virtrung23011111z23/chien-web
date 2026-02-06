@@ -19,7 +19,7 @@ function useUpCount(count, duration = 2000) {
                         if (progress < 1) {
                             requestAnimationFrame(tick);
                         } else {
-                            setValue(count);
+                            setValue(count); 
                         }
                     };
                     requestAnimationFrame(tick);

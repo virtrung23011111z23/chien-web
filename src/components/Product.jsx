@@ -3,7 +3,7 @@ import { products } from "../data/products.data"
 
 function ProductItem({ img, name, desc }) {
     const startList = [];
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
         startList.push(
             <div key={i} className="product__start">
                 {Icons["star"]}
@@ -19,11 +19,21 @@ function ProductItem({ img, name, desc }) {
             <div className="product__name">
                 {name}
             </div>
+            <div className="product__mid">
+                 <div className="box-product__info">
+                            <div className="box-product__avatar">
+                                <img src="images/avatar.png" alt="avatar" />
+                            </div>
+                            <div className="box-product__name">
+                                Tiến Trung
+                            </div>
+                        </div>
+                <div className="product__start-list">
+                    {startList}
+                </div>
+            </div>
             <div className="product__desc">
                 {desc}
-            </div>
-            <div className="product__start-list">
-                {startList}
             </div>
             <div className="product__item-bottom">
                 <div className="product__button">
@@ -31,7 +41,7 @@ function ProductItem({ img, name, desc }) {
                         Liên hệ
                     </div>
                     <div className="product__icon">
-                        external
+                        {Icons["external"]}
                     </div>
                 </div>
             </div>
@@ -74,8 +84,7 @@ export default function Product() {
                 </div>
             </div>
             <div className="product__grid">
-                {products.map(pr => 
-                {
+                {products.map(pr => {
                     const name = pr.name ?? "";
                     const img = pr.image ?? "";
                     const desc = pr.desc ?? "";
